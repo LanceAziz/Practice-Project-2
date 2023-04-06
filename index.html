@@ -1,0 +1,90 @@
+<html>
+<head></head>
+<body>
+    <form>
+        <fieldset style="background-color: #a32b2d;">
+            <legend style="background-color: #586d96; font-size: 35px; width: 190px; margin-left: 20px; padding-top: 5px;">Personal data</legend>
+            <div style="font-family: Consolas;">
+                <fieldset style="background-color: #d9a51e; margin: 10px;">
+                    <!-- Your Name -->
+                    <legend style="background-color: #6496eb;width: 80px; padding-top: 2%;padding-bottom: 2%; margin: 20px;">Your Name</legend>
+                    <!-- First Name -->
+                    <label for="firstName" style="width: 90px; display: inline-block;">First Name</label>
+                    <label>:</label>
+                    <input id="firstName" type="text" name="firstName" placeholder="ex:Lance">
+                    <br>
+                    <!-- Last Name -->
+                    <label for="lastName" style="width: 90px; display: inline-block;">Last Name</label>
+                    <label>:</label>
+                    <input id="lastName" type="text" name="lastName" placeholder="ex:Moheb">
+                </fieldset>
+
+            <br><br>
+
+            <div style="margin: 20px; font-weight: bold;">
+                    <!-- Phone Number -->
+                    <label for="phoneNumber" style="width: 100px; display: inline-block;">Your Phone</label>
+                    <label>:</label>
+                    <input id="phoneNumber" type="number" name="phoneNumber">
+                    <br>
+                    <!-- E-mail -->
+                    <label for="email" style="width: 100px; display: inline-block;">Email</label>
+                    <label>:</label>
+                    <input id="email" type="email" name="email">
+                    <br>
+                    <!-- Password -->
+                    <label for="password" style="width: 100px; display: inline-block;">Password</label>
+                    <label>:</label>
+                    <input id="password" type="password" name="password">
+                    <br>
+                    <!-- Re-Password -->
+                    <label for="rePassword" style="width: 100px; display: inline-block;">Re-Password</label>
+                    <label>:</label>
+                    <input id="rePassword" type="password" name="rePassword">
+            </div>
+
+            <br><br>
+
+            <div style="margin: 20px;">
+                <!-- Gender -->
+                <input id="male" type="radio" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+    
+                <input id="female" type="radio" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+            </div>
+
+            <br><br>
+
+            <div style="margin: 20px;">
+                <!-- Status -->
+                <input id="student" type="checkbox" name="status" value="student">
+                <label for="student">Student</label>
+                <br>
+                <input id="graduated" type="checkbox" name="status" value="graduated">
+                <label for="graduated">Graduated</label>
+                <br>
+            </div>
+    
+            <br><br>
+
+            <div style="margin: 20px;">
+                <!-- Universaity -->
+                <label for="university">University: </label>
+                <select id="university" name="university">
+                    <option value="AUC">AUC</option>
+                    <option value="GUC">GUC</option>
+                    <option value="MIU">MIU</option>
+                    <option value="MTI">MTI</option>
+                </select>
+                <br><br>
+                <!-- Submit -->
+                <input type="image" src="Images/Submit.png" alt="Submit" width="150">
+            </div>
+        </div>
+        </fieldset>
+    </form>
+</body>
+</html>
